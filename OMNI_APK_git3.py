@@ -936,7 +936,7 @@ The procedure is finished 100%
                
 For any technical queries, reach out to Ram.kumar@nielseniq.com....
 """,anchor="center")
-                    messagebox.showinfo('Success',"The reports have been successfully generated.")
+               messagebox.showinfo('Success',"The reports have been successfully generated.")
 
                
           else:
@@ -964,7 +964,7 @@ The procedure is finished 100%
                
 For any technical queries, reach out to Ram.kumar@nielseniq.com....
 """,anchor="center")
-               messagebox.showinfo('Success',"The reports have been successfully generated.")
+          messagebox.showinfo('Success',"The reports have been successfully generated.")
 
      elif Column_yes.get() == "YES" and  SPLIT_AUTO_YES.get() =="MANUAL":
           rows = int(ROWS_COUNT.get())
@@ -983,7 +983,7 @@ The procedure is finished 100%
                
 For any technical queries, reach out to Ram.kumar@nielseniq.com....
 """,anchor="center")
-               messagebox.showinfo('Success',"The reports have been successfully generated.")
+          messagebox.showinfo('Success',"The reports have been successfully generated.")
 
      elif Column_yes.get() == "YES" and  SPLIT_AUTO_YES.get() =="AUTOMATIC":
           rows = 749999
@@ -1002,7 +1002,7 @@ The procedure is finished 100%
                
 For any technical queries, reach out to Ram.kumar@nielseniq.com....
 """,anchor="center")
-                    messagebox.showinfo('Success',"The reports have been successfully generated.")
+               messagebox.showinfo('Success',"The reports have been successfully generated.")
                
           else:
                label7.configure(text=f"""
